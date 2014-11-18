@@ -1,3 +1,32 @@
+/* Primary Header*/
+
+h1 {
+	font-family: 'Audiowide', cursive;
+	color: #877D2C;
+}
+
+/* Body Texts */
+
+p {
+	font-family: 'Petit Formal Script', cursive;
+	color: #F2E6E3;
+}
+
+/* Links */
+
+a:link,
+a:visited {
+	border-bottom: double black 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	background: red;
+}
+
+
 /* Set Your Own Margin & Padding */
 h2, h3, p {
 	margin: 0;
@@ -21,6 +50,41 @@ section {
 	width: 50px;
 }
 
+/* Color Pallette */
+
+.color-1 {
+	background: teal;
+}
+
+.color-2 {
+	background: cornflowerblue;
+}
+
+.color-3 {
+	background: #FE014E;
+}
+
+.color-4 {
+	background: ;
+}
+
+/*
+Textures */
+
+.pattern-1 {
+	background-color: #004f8c;
+	background-image: url(http://www.transparenttextures.com/patterns/black-orchid.png);
+}
+
+.pattern-2 {
+	background-color: #004f8c;
+	background-image: url(http://www.transparenttextures.com/patterns/brick-wall.png);
+}
+
+.pattern-3 {
+	background-color: #700006;
+	background-image: url(http://www.transparenttextures.com/patterns/light-paper-fibers.png);
+}
 
 /* Show Grid */
 .showgrid {
